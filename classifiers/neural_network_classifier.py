@@ -11,12 +11,12 @@ class NeuralNetworkClassifier(object):
                                  activation=activation,
                                  tol=tol)
 
-    def train(self, x_train,y_train):
+    def train(self, x_train, y_train):
         print('Classifier training in process...')
         self.mlp.fit(x_train, y_train)
         print('Classifier training concluded')
 
-    def test    (self, x_test, y_test):
+    def test(self, x_test, y_test):
         print('Testing classifier')
         predictions = self.mlp.predict(x_test)
         confusion_matrix(y_test, predictions)  # no se si se ocupa
