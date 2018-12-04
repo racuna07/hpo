@@ -189,7 +189,7 @@ GRAPHICS-WINDOW
 1
 1
 0
-15
+14
 0
 3
 1
@@ -243,7 +243,7 @@ raw fitness
 0.0
 20.0
 0.0
-101.0
+1.0
 true
 true
 "" ""
@@ -276,6 +276,17 @@ MONITOR
 373
 MAX Fitness
 [fitness] of max-one-of turtles [fitness]
+17
+1
+11
+
+MONITOR
+554
+13
+814
+58
+Winner
+[bits] of winner
 17
 1
 11
