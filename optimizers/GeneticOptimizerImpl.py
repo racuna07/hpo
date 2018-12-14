@@ -25,7 +25,7 @@ def setup():
 
 def main():
     global_max = 0
-    netlogo.load_model('C:\\Users\\Rodrigo\\PycharmProjects\\hpo\\resources\\Simple Genetic Algorithm.nlogo')
+    netlogo.load_model('C:\\Users\\carlos\\PycharmProjects\\hpo\\resources\\Simple Genetic Algorithm.nlogo')
     setup()
     # Evaluate initial fitness
     who = netlogo.report('map [s -> [who] of s] sort turtles')

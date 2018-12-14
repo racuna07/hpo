@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 class DataUtils(object):
     def __init__(self):
         # We read the data from the csv file
-        self.dfData = pd.read_csv('C:\\Users\\Rodrigo\\PycharmProjects\\hpo\\resources\\RawDataWithRainTransformed.csv', sep=',')
+        self.dfData = pd.read_csv('C:\\Users\\carlos\\PycharmProjects\\hpo\\resources\\RawDataWithRainTransformed.csv', sep=',')
 
         # We generate the classes and features of the data
         self.le = LabelEncoder()
